@@ -21,15 +21,19 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  // font-size: 16px (Valor padrão Desktop)
+
   html {
     @media (max-width: 1080px) {
-      font-size: 93.75%;
+      font-size: 93.75%; // 16 * 0,9375 = 15px
     }
 
     @media (max-width: 720px) {
-      font-size: 87.5%;
+      font-size: 87.5%; // 16 * 0,875 = 14px
     }
   }
+
+  // REM = 1rem = 16px
 
   body {
     background: var(--background);
@@ -69,7 +73,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .react-modal-content {
-    width: 100%auto;
+    width: 100% auto;
     max-width: 576px;
     background: var(--background);
     padding: 3rem;

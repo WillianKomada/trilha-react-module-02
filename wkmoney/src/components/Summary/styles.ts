@@ -19,7 +19,7 @@ export const Container = styled.div`
     }
 
     strong {
-      display: block;
+      display: block; // preenche todo o espaço lateral
       margin-top: 1rem;
       font-size: 2rem;
       font-weight: 500;
