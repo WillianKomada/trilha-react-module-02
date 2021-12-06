@@ -34,7 +34,10 @@ interface TransactionsContextData {
 
 type TransactionInput = Omit<Transaction, "id" | "createdAt">;
 
-// type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'category'>;
+// type TransactionInput = Pick<
+//   Transaction,
+//   "title" | "amount" | "type" | "category"
+// >;
 
 const TransactionsContext = createContext<TransactionsContextData>(
   {} as TransactionsContextData
