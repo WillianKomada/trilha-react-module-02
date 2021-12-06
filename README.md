@@ -43,6 +43,7 @@ $ yarn install
 # Iniciar o projeto
 $ yarn start
 ```
+---
 
 ## 📷 Imagens do Projeto
 
