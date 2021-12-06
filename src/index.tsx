@@ -13,19 +13,19 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: "Freelance de website",
+          title: "Website Developer",
           type: "deposit",
           category: "Dev",
-          amount: 6000,
-          createdAt: new Date("2021-02-12 09:00:00"),
+          amount: 3000,
+          createdAt: new Date("2021-12-01 20:00:00"),
         },
         {
           id: 2,
-          title: "Aluguel",
+          title: "Fonte nova para PC",
           type: "withdraw",
-          category: "Casa",
-          amount: 1159.6,
-          createdAt: new Date("2021-02-14 11:00:00"),
+          category: "Hardware",
+          amount: 1600,
+          createdAt: new Date("2021-12-02 15:30:00"),
         },
       ],
     });

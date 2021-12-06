@@ -57,7 +57,7 @@ export function NewTransactionModal({
       </button>
 
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Cadastrar transação</h2>
+        <h2>Nova transação</h2>
 
         <input
           placeholder="Título"
